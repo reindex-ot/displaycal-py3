@@ -1,7 +1,7 @@
 "*": |-
   翻訳者への注意: まだ翻訳されていないキーは先頭にアスタリスク (*) が付いています。翻訳したらアスタリスクを削除してください。プレースホルダー（パーセント記号に続くフォーマット文字列、例: %s, %i, %f など）はそのままにしてください。
 "!author": |-
-  coolvitto
+  coolvitto & Re*Index.(ot_inc)
 "!language": |-
   日本語
 "!language_name": |-
@@ -9,19 +9,19 @@
 "3dlut": |-
   3D LUT
 "3dlut.1dlut.videolut.nonlinear": |-
-  ディスプレイデバイスのビデオカードガンマテーブル1D LUTキャリブレーションは非線形ですが、3D LUTには適用された1D LUTキャリブレーションが含まれています。3D LUTを使用する前に、ビデオカードガンマテーブルを手動で線形にリセットするか、キャリブレーションが適用されていない3D LUTを作成してください（後者を行うには、「オプション」メニューで「詳細オプションを表示」を有効にし、「キャリブレーションを適用（vcgt）」および「プロファイリング後に3D LUTを作成」を3D LUT設定で無効にし、新しい3D LUTを作成します）。
+  ディスプレイデバイスのビデオカードガンマテーブル 1D LUT キャリブレーションは非線形ですが、3D LUT には適用された 1D LUT キャリブレーションが含まれています。3D LUT を使用する前に、ビデオカードガンマテーブルを手動で線形にリセットするか、キャリブレーションが適用されていない 3D LUT を作成してください（後者を行うには、「オプション」メニューで「詳細オプションを表示」を有効にし、「キャリブレーションを適用（vcgt）」および「プロファイリング後に 3D LUT を作成」を 3D LUT 設定で無効にし、新しい 3D LUT を作成します）。
 "3dlut.bitdepth.input": |-
   3D LUT 入力ビット深度
 "3dlut.bitdepth.output": |-
   3D LUT 出力ビット深度
 "3dlut.confirm_relcol_rendering_intent": |-
-  3D LUTに測定されたホワイトポイントも使用しますか(3D LUTのレンダリングインテントは相対的色域に設定されます)?
+  3D LUT に測定されたホワイトポイントも使用しますか(3D LUT のレンダリングインテントは相対的色域に設定されます)?
 "3dlut.content.colorspace": |-
   コンテンツの色空間
 "3dlut.create": |-
   3D LUT の作成...
 "3dlut.create_after_profiling": |-
-  プロファイリング後に3D LUTを作成する
+  プロファイリング後に 3D LUT を作成する
 "3dlut.enable": |-
   3D LUT を有効にする
 "3dlut.encoding.input": |-
@@ -29,7 +29,7 @@
 "3dlut.encoding.output": |-
   出力エンコーディング
 "3dlut.encoding.output.warning.madvr": |-
-  警告: この出力エンコーディングは推奨されておらず、「デバイス」→「%s」→「プロパティ」でmadVRが「TVレベル (16-235)」を出力するように設定されていない場合、クリッピングが発生します。使用は自己責任でお願いします！
+  警告: この出力エンコーディングは推奨されておらず、「デバイス」→「%s」→「プロパティ」で madVR が「TV レベル (16-235)」を出力するように設定されていない場合、クリッピングが発生します。使用は自己責任でお願いします！
 "3dlut.encoding.type_2": |-
   TV Rec. 2020 YCbCr UHD
 "3dlut.encoding.type_5": |-
@@ -59,19 +59,19 @@
 "3dlut.format.cube": |-
   IRIDAS (.cube)
 "3dlut.format.dcl": |-
-  DeviceControl (.dcl)
+  デバイスコントロール (.dcl)
 "3dlut.format.eeColor": |-
   eeColor Processor (.txt)
 "3dlut.format.icc": |-
-  Device link profile (.icc/.icm)
+  デバイスリンクプロファイル (.icc/.icm)
 "3dlut.format.madVR": |-
   madVR (.3dlut)
 "3dlut.format.madVR.hdr": |-
-  Process HDR content
+  HDR コンテンツ処理
 "3dlut.format.madVR.hdr.confirm": |-
-  ディスプレイをHDRモードでプロファイルしている必要があることに注意してください。ディスプレイがネイティブにHDRをサポートしていない場合は、「キャンセル」をクリックしてください。
+  ディスプレイを HDR モードでプロファイルしている必要があることに注意してください。ディスプレイがネイティブに HDR をサポートしていない場合は、「キャンセル」をクリックしてください。
 "3dlut.format.madVR.hdr_to_sdr": |-
-  HDRコンテンツをSDRに変換
+  HDR コンテンツを SDR に変換
 "3dlut.format.mga": |-
   Pandora (.mga)
 "3dlut.format.png": |-
@@ -99,9 +99,9 @@
 "3dlut.install.success": |-
   3D LUT のインストールに成功しました!
 "3dlut.install.unsupported": |-
-  選択した3D LUT形式では3D LUTのインストールはサポートされていません。
+  選択した 3D LUT 形式では 3D LUT のインストールはサポートされていません。
 "3dlut.madvr.colorspace.unsupported": |-
-  ソース色空間 %s の一次色度 xy 座標 赤 %.4f %.4f、緑 %.4f %.4f、青 %.4f %.4f は、madVR による自動インストールをサポートしていません。madVR で 3D LUT を手動で割り当ててください。
+  ソース色空間 %s の一次色度 xy 座標 赤 %.4f %.4f、緑 %.4f %.4f、青 %.4f %.4f は、madVR  による自動インストールをサポートしていません。madVR で 3D LUT を手動で割り当ててください。
 "3dlut.save_as": |-
   3D LUT を名前を付けて保存...
 "3dlut.settings": |-
@@ -111,7 +111,7 @@
 "3dlut.tab.enable": |-
   3D LUT タブを有効にする
 "3dlut.use_abstract_profile": |-
-  Abstract (“Look”) profile
+  Abstract (“Look”) プロファイル
 "CMP_Digital_Target-3.cie": |-
   CMP Digital Target 3
 "CMP_Digital_Target-4.cie": |-
@@ -127,7 +127,7 @@
 "ColorCheckerDC.cie": |-
   カラーチェッカー DC
 "ColorCheckerPassport.cie": |-
-  カラーチェッカー Passport
+  カラーチェッカーパスポート
 "ColorCheckerSG.cie": |-
   カラーチェッカー SG
 "FograStrip2.ti1": |-
@@ -135,9 +135,9 @@
 "FograStrip3.ti1": |-
   Fogra Media Wedge CMYK V3.0
 "ISO_12646-2008_color_accuracy_and_gray_balance.ti1": |-
-  ISO 12646:2008年の色精度とグレーバランス
+  ISO 12646:2008 年の色精度とグレーバランス
 "ISO_14861_color_accuracy_RGB318.ti1": |-
-  ISO 14861:2015年の色精度とグレーバランス
+  ISO 14861:2015 年の色精度とグレーバランス
 "QPcard_201.cie": |-
   QPcard 201
 "QPcard_202.cie": |-
@@ -157,9 +157,9 @@
 "abstract_profile": |-
   抽象プロファイル
 "active_matrix_display": |-
-  Active matrix display
+  有効なマトリックスディスプレイ
 "adaptive_mode_unavailable": |-
-  アダプティブモードは、ArgyllCMS 1.1.0 RC3以降でのみ利用可能です。
+  アダプティブモードは、ArgyllCMS 1.1.0 RC3 以降でのみ利用可能です。
 "add": |-
   追加...
 "adjust_rolloff": |-
@@ -181,9 +181,9 @@
 "app.client.disconnect": |-
   スクリプトクライアント %s:%s が切断されました
 "app.client.ignored": |-
-  スクリプト クライアント %s:%s: %s の接続試行が拒否されました
+  スクリプトクライアント %s:%s: %s の接続試行が拒否されました
 "app.client.network.disallowed": |-
-  スクリプト クライアント %s:%s の接続試行が拒否されました: ネットワーク クライアントは許可されていません。
+  スクリプトクライアント %s:%s の接続試行が拒否されました: ネットワーク クライアントは許可されていません。
 "app.confirm_restore_defaults": |-
   本当に変更を破棄してデフォルトに戻しますか?
 "app.detected": |-
@@ -199,7 +199,7 @@
 "app.incoming_message.invalid": |-
   スクリプト要求が無効です。
 "app.listening": |-
-  %s:%s でスクリプト ホストを設定しています
+  %s:%s でスクリプトホストを設定しています
 "app.otherinstance": |-
   %s はすでに実行されています。
 "app.otherinstance.notified": |-
@@ -227,32 +227,34 @@
 "argyll.dir.invalid": |-
   ArgyllCMS 実行ファイルが見つかりません!
 実行ファイルを含むディレクトリを選択してください (先頭または末尾に「argyll-」または「-argyll」が付いている可能性があります): %s
+"argyll.use_homebrew": |-
+  Use Homebrew installation (%s)
 "argyll.error.detail": |-
-  詳細な ArgyllCMS エラー メッセージ :
+  詳細な ArgyllCMS エラーメッセージ :
 "argyll.instrument.configuration_files.install": |-
-  ArgyllCMS 機器構成ファイルをインストール...
+  ArgyllCMS デバイス構成ファイルをインストール...
 "argyll.instrument.configuration_files.install.success": |-
-  ArgyllCMS 機器構成ファイルのインストールが完了しました。
+  ArgyllCMS デバイス構成ファイルのインストールが完了しました。
 "argyll.instrument.configuration_files.uninstall": |-
-  ArgyllCMS 機器構成ファイルをアンインストール...
+  ArgyllCMS デバイス構成ファイルをアンインストール...
 "argyll.instrument.configuration_files.uninstall.success": |-
-  ArgyllCMS 機器構成ファイルのアンインストールが完了しました。
+  ArgyllCMS デバイス構成ファイルのアンインストールが完了しました。
 "argyll.instrument.driver.missing": |-
-  測定デバイス用の ArgyllCMS ドライバーがインストールされていないか、正しくインストールされていないようです。測定デバイスが Windows のデバイス マネージャーの「Argyll LibUSB-1.0A デバイス」に表示されているかどうかを確認し、必要に応じてドライバーを (再) インストールしてください。インストール手順については、ドキュメントをお読みください。
+  測定デバイス用の ArgyllCMS ドライバーがインストールされていないか、正しくインストールされていないようです。測定デバイスが Windows のデバイスマネージャーの「Argyll LibUSB-1.0A デバイス」に表示されているかどうかを確認し、必要に応じてドライバーを (再) インストールしてください。インストール手順については、ドキュメントをお読みください。
 "argyll.instrument.drivers.install": |-
-  ArgyllCMS 機器ドライバーをインストール...
+  ArgyllCMS デバイスドライバーをインストール...
 "argyll.instrument.drivers.install.confirm": |-
   ColorMunki Display、i1 Display Pro、Huey、ColorHug、specbos、spectraval、K-10 以外の測定機器をお持ちの場合は、ArgyllCMS 固有のドライバーのみをインストールする必要があります。
   
   続行しますか?
 "argyll.instrument.drivers.install.failure": |-
-  ArgyllCMS 機器ドライバーのインストールに失敗しました。
+  ArgyllCMS デバイスドライバーのインストールに失敗しました。
 "argyll.instrument.drivers.install.restart": |-
   ArgyllCMS 計測器ドライバをインストールするには、ドライバ署名の強制を無効にする必要があります。そのためには、システムを再起動する必要があります。表示されるページで「トラブルシューティング」を選択し、次に「詳細オプション」、「スタートアップ設定」、最後に「再起動」を選択します。起動時に、「ドライバ署名の強制を無効にする」を選択します。再起動後、メニューでもう一度「ArgyllCMS 計測器ドライバをインストール...」を選択して、ドライバをインストールします。「トラブルシューティング」オプションが表示されない場合は、DisplayCAL ドキュメントのセクション「Windows での計測器ドライバのインストール」で、ドライバ署名の強制を無効にする別の方法を参照してください。
 "argyll.instrument.drivers.uninstall": |-
-  ArgyllCMS 機器ドライバーをアンインストール...
+  ArgyllCMS デバイスドライバーをアンインストール...
 "argyll.instrument.drivers.uninstall.confirm": |-
-  注: アンインストールは現在使用中の計測器ドライバーには影響しませんが、Windows のドライバー ストアからドライバーが削除されるだけです。お使いの計測器にインストールされているベンダー提供のドライバーに戻す場合は、Windows のデバイス マネージャーを使用して手動でベンダー ドライバーに切り替える必要があります。これを行うには、計測器を右クリックして [ドライバー ソフトウェアの更新...] を選択し、[コンピューターを参照してドライバー ソフトウェアを検索]、[コンピューター上のデバイス ドライバーの一覧から選択する] の順に選択し、最後に一覧から計測器のベンダー ドライバーを選択します。
+  注: アンインストールは現在使用中の計測器ドライバーには影響しませんが、Windows のドライバーストアからドライバーが削除されるだけです。お使いの計測器にインストールされているベンダー提供のドライバーに戻す場合は、Windows のデバイスマネージャーを使用して手動でベンダードライバーに切り替える必要があります。これを行うには、計測器を右クリックして [ドライバーソフトウェアの更新...] を選択し、[コンピューターを参照してドライバーソフトウェアを検索]、[コンピューター上のデバイスドライバーの一覧から選択する] の順に選択し、最後に一覧から計測器のベンダードライバーを選択します。
   
   続行しますか?
 "argyll.instrument.drivers.uninstall.failure": |-
@@ -260,13 +262,13 @@
 "argyll.instrument.drivers.uninstall.success": |-
   ArgyllCMS 機器ドライバーのアンインストールが完了しました。
 "argyll.malformed_ccxx": |-
-  不正な色彩計補正ファイルが存在する限り、ArgyllCMS は機能しません。それらは自動的にゴミ箱に移動されます。
+  不正な色彩計補正ファイルが存在する限り、ArgyllCMS は機能しません。それらは自動的にごみ箱に移動されます。
 "argyll.util.not_found": |-
   ArgyllCMS “%s” 実行ファイルが見つかりません。
 "as_measured": |-
   測定値
 "audio.lib": |-
-  オーディオ モジュール : %s
+  オーディオモジュール : %s
 "auth": |-
   認証
 "auth.failed": |-
@@ -362,9 +364,9 @@
 "calibration.complete": |-
   キャリブレーションが完了しました！
 "calibration.create_fast_matrix_shaper": |-
-  マトリックス プロファイルの作成
+  マトリックスプロファイルの作成
 "calibration.create_fast_matrix_shaper_choice": |-
-  キャリブレーション測定から高速マトリックス シェイパー プロファイルを作成しますか、それとも単にキャリブレーションするだけですか?
+  キャリブレーション測定から高速マトリックスシェイパープロファイルを作成しますか、またはキャリブレーションのみ行いますか?
 "calibration.do_not_use_video_lut": |-
   キャリブレーションを適用するのにビデオカードのガンマテーブルを使用しないでください
 "calibration.do_not_use_video_lut.warning": |-
@@ -619,6 +621,8 @@
   Chromecast は RGB から YCbCr への変換とアップスケーリングを使用するため、Chromecast の精度は直接接続されたディスプレイや madTPG ほど高くないことにご注意ください。
 "cie2012_2": |-
   CIE 2012 2°
+"cie2015_2": |-
+  CIE 2015 2°
 "clear": |-
   消去
 "close": |-
@@ -819,7 +823,7 @@
 "device_model_name_macintosh": |-
   デバイスのモデル名 (Macintosh)
 "device_model_name_unicode": |-
-  デバイスのモデル名e (Unicode)
+  デバイスのモデル名 (Unicode)
 "device_to_pcs_intent_0": |-
   Device to PCS: Intent 0
 "device_to_pcs_intent_1": |-
@@ -869,13 +873,13 @@
 "digital_motion_picture_camera": |-
   デジタル動画カメラ
 "direction.backward": |-
-  PCS → B2A → device
+  PCS → B2A → デバイス
 "direction.backward.inverted": |-
-  PCS ← B2A ← device
+  PCS ← B2A ← デバイス
 "direction.forward": |-
-  Device → A2B → PCS
+  デバイス → A2B → PCS
 "direction.forward.inverted": |-
-  Device ← A2B ← PCS
+  デバイス ← A2B ← PCS
 "directory": |-
   ディレクトリ
 "disconnected.from": |-
@@ -893,11 +897,11 @@
   
   ディスプレイにもグラフィック ドライバーにも範囲設定がない場合は、「続行」をクリックしてビデオ カードのガンマ テーブルを使用して出力レベルを修正することもできますが、これはあまり好ましくない解決策であることに注意してください。
 "display.manufacturer": |-
-  ディスプレイ デバイスメーカー
+  ディスプレイデバイスの製造
 "display.output": |-
   出力 #
 "display.primary": |-
-  (Primary)
+  (プライマリー)
 "display.properties": |-
   デバイスのプロパティを表示
 "display.reset.info": |-
@@ -914,6 +918,8 @@
   DLP Projector RGB Filter Wheel
 "display.tech.DLP Projector RGBCMY Filter Wheel": |-
   DLP Projector RGBCMY Filter Wheel
+"display.tech.DLP Projector RGBW Filter Wheel": |-
+  DLP Projector RGBW Filter Wheel
 "display.tech.DPL Projector RGBW Filter Wheel": |-
   DLP Projector RGBW Filter Wheel
 "display.tech.LCD": |-
@@ -924,6 +930,8 @@
   LCD CCFL IPS
 "display.tech.LCD CCFL TFT": |-
   LCD CCFL TFT
+"display.tech.LCD CCFL PVA": |-
+  LCD CCFL PVA
 "display.tech.LCD CCFL VPA": |-
   LCD CCFL PVA
 "display.tech.LCD CCFL Wide Gamut": |-
@@ -932,6 +940,8 @@
   LCD CCFL Wide Gamut IPS
 "display.tech.LCD CCFL Wide Gamut TFT": |-
   LCD CCFL Wide Gamut TFT
+"display.tech.LCD CCFL Wide Gamut PVA": |-
+  LCD CCFL Wide Gamut PVA
 "display.tech.LCD CCFL Wide Gamut VPA": |-
   LCD CCFL Wide Gamut PVA
 "display.tech.LCD GB-R Phosphor": |-
@@ -940,6 +950,8 @@
   LCD GB-r-LED IPS
 "display.tech.LCD GB-R Phosphor TFT": |-
   LCD GB-r-LED TFT
+"display.tech.LCD GB-R Phosphor PVA": |-
+  LCD GB-r-LED PVA
 "display.tech.LCD GB-R Phosphor VPA": |-
   LCD GB-r-LED PVA
 "display.tech.LCD PFS Phosphor": |-
@@ -948,6 +960,8 @@
   LCD PFS Phosphor WLED IPS
 "display.tech.LCD PFS Phosphor TFT": |-
   LCD PFS Phosphor WLED TFT
+"display.tech.LCD PFS Phosphor PVA": |-
+  LCD PFS Phosphor WLED PVA
 "display.tech.LCD PFS Phosphor VPA": |-
   LCD PFS Phosphor WLED PVA
 "display.tech.LCD RG Phosphor": |-
@@ -956,6 +970,8 @@
   LCD RG Phosphor LED IPS
 "display.tech.LCD RG Phosphor TFT": |-
   LCD RG Phosphor LED TFT
+"display.tech.LCD RG Phosphor PVA": |-
+  LCD RG Phosphor LED PVA
 "display.tech.LCD RG Phosphor VPA": |-
   LCD RG Phosphor LED PVA
 "display.tech.LCD RGB LED": |-
@@ -964,6 +980,8 @@
   LCD RGB LED IPS
 "display.tech.LCD RGB LED TFT": |-
   LCD RGB LED TFT
+"display.tech.LCD RGB LED PVA": |-
+  LCD RGB LED PVA
 "display.tech.LCD RGB LED VPA": |-
   LCD RGB LED PVA
 "display.tech.LCD White LED": |-
@@ -972,6 +990,8 @@
   LCD White LED IPS
 "display.tech.LCD White LED TFT": |-
   LCD White LED TFT
+"display.tech.LCD White LED PVA": |-
+  LCD White LED PVA
 "display.tech.LCD White LED VPA": |-
   LCD White LED PVA
 "display.tech.LED AMOLED": |-
@@ -1017,6 +1037,10 @@
   ダウンロードに失敗 : %s は空のドキュメントを返しました。
 "download.fail.wrong_size": |-
   ダウンロードに失敗 : ファイルのサイズが予期した%sバイト (受信した%sバイト) ではありません。
+"download.retrying": |-
+  Retrying download (%i/%i) in %.1f s...
+"archive.extract.fail.delete": |-
+  Failed to extract archive, deleting file: %s
 "download_install": |-
   ダウンロードとインストール
 "downloading": |-
@@ -1214,7 +1238,7 @@
 "filetype.png": |-
   ポータブルネットワークグラフィックス (*.png)
 "filetype.tgz": |-
-  圧縮されたTARアーカイブ
+  圧縮された TAR アーカイブ
 "filetype.ti1": |-
   テストチャートファイル (*.ti1)
 "filetype.ti1_ti3_txt": |-
@@ -1303,13 +1327,13 @@
 "gamap.viewconds.pc": |-
   重要な印刷評価環境 (ISO-3664 P1)
 "gamap.viewconds.pcd": |-
-  写真CD - 屋外のオリジナルシーン
+  フォト CD - 屋外のオリジナルシーン
 "gamap.viewconds.pe": |-
   印刷評価環境 (CIE 116-1995)
 "gamap.viewconds.pp": |-
   実用的な反射プリント (ISO-3664 P2)
 "gamap.viewconds.tv": |-
-  テレビ/フイルムスタジオ
+  テレビ/フィルムスタジオ
 "gamapframe.title": |-
   高度な色域マッピングオプション
 "gamut": |-
@@ -1339,7 +1363,7 @@
 "go_to": |-
   %s へ移動
 "go_to_website": |-
-  Webサイトへ移動
+  Web サイトへ移動
 "gravure": |-
   グラビア
 "gray_tone_response_curve": |-
@@ -1403,7 +1427,7 @@
 "in": |-
   In
 "info.3dlut_settings": |-
-  A <font weight='bold'>3D LUT</font> (LUT = ルックアップテーブル) またはICCデバイスリンクプロファイルは、3D LUTまたはICCデバイスリンク対応アプリケーションでフル機能で使用できます。 <font weight='bold'>display color correction</font>.
+  <font weight='bold'>3D LUT</font> (LUT = ルックアップテーブル) またはICCデバイスリンクプロファイルは、3D LUTまたはICCデバイスリンク対応アプリケーションでフル機能で使用できます。 <font weight='bold'>display color correction</font>.
   
   <font weight='bold'>既存のプロファイルから複数の（追加の）3D LUT</font>
   を作成する 「設定」で目的のプロファイルを選択した状態で、「プロファイリング後に 3D LUT を作成する」チェックボックスをオフにします。
@@ -1473,7 +1497,7 @@
 "initial": |-
   初期
 "initializing_gui": |-
-  GUIの初期化...
+  GUI の初期化...
 "ink_jet_printer": |-
   インクジェットプリンター
 "input_device_profile": |-
@@ -1527,7 +1551,7 @@
 "is_linear": |-
   線形である
 "laptop.icc": |-
-  ラップトップ (ガンマ 2.2)
+  ノート PC (ガンマ 2.2)
 "level": |-
   レベル
 "libXss.so": |-
@@ -1537,7 +1561,7 @@
 "license": |-
   ライセンス
 "license_info": |-
-  GPLライセンス
+  GPL
 "linear": |-
   線形
 "link.address.copy": |-
@@ -1767,6 +1791,10 @@
   CIE 2012 2°
 "observer.2012_10": |-
   CIE 2012 10°
+"observer.2015_2": |-
+  CIE 2015 2°
+"observer.2015_10": |-
+  CIE 2015 10°
 "observer.shaw": |-
   Shaw & Fairchild 1997 2°
 "oem.import.auto": |-
@@ -1778,7 +1806,7 @@
 "oem.import.auto_windows": |-
   色彩計のベンダー ソフトウェアがインストールされている場合は、ほとんどの場合、必要なファイルが自動的に見つかります。
 "office_web.icc": |-
-  Office & Web (D65, ガンマ 2.2)
+  Office & Web (D65、ガンマ 2.2)
 "offset": |-
   オフセット
 "offset_lithography": |-
@@ -1786,13 +1814,13 @@
 "ok": |-
   OK
 "or": |-
-  or
+  または
 "osd": |-
   OSD
 "other": |-
   その他
 "out": |-
-  Out
+  出力
 "out_of_gamut_tag": |-
   色域外タグ
 "output.profile": |-
@@ -1840,7 +1868,7 @@
 "perceptual": |-
   Perceptual
 "photo.icc": |-
-  Photo (D50, Gamma 2.2)
+  写真 (D50、ガンマ 2.2)
 "photo_imagesetter": |-
   写真イメージセッター
 "photographic_paper_printer": |-
@@ -1854,7 +1882,7 @@
 "positive": |-
   ポジティブ
 "preferred_cmm": |-
-  推奨CMM
+  推奨 CMM
 "prepress.icc": |-
   Prepress (D50, 130 cd/m², L*)
 "preserve_hue": |-
@@ -1930,7 +1958,7 @@
   %j	一年のうちの日
   %m	月
   %M	分
-  %p	AM/PM
+  %p	午前/午後
   %S	秒
   %U	週 (週の初日は日曜日)
   %w	平日 (日曜日は0)
@@ -1939,6 +1967,8 @@
   %Y	世紀のある年
 "profile.no_embedded_ti3": |-
   プロファイルには Argyll 互換の測定データが含まれていません。
+"profile.no_targ": |-
+  The profile does not contain target information.
 "profile.no_vcgt": |-
   プロファイルにはキャリブレーション曲線が含まれていません。
 "profile.only_named_color": |-
@@ -2585,11 +2615,11 @@
 "warning.system_file": |-
   警告: “%s”はシステム ファイルです。本当に続行しますか?
 "webserver.waiting": |-
-  ウェブサーバーが待機中
+  Web サーバーが待機中
 "welcome": |-
   ようこそ！
 "welcome_back": |-
-  おかえり！
+  おかえりなさい！
 "white": |-
   白
 "whitepoint": |-
